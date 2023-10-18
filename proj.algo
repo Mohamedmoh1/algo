@@ -1,0 +1,12 @@
+ALGORITHM Phrase
+VAR
+    S:integer
+BEGIN
+    Write("donner une phrase")
+    Read(S)
+    if ("."# S)
+    Write ("error:the sentence does not with a period")
+    if not
+    Write(S)
+    END if;
+END.
