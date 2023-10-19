@@ -1,12 +1,25 @@
-ALGORITHM Phrase
+ALGORITHM Counter
 VAR
-    S:integer
+    c : CHAR;
+    cc,cw,cv : INTEGER := 0;
 BEGIN
-    Write("donner une phrase")
-    Read(S)
-    if ("."# S)
-    Write ("error:the sentence does not with a period")
-    if not
-    Write(S)
-    END if;
-END.
+    REPEAT
+       Write(Give a character)
+       Read(c);
+       
+       cc:= cc + 1;
+       
+       IF (d = '.') THEN
+        cw := cw + 1;
+       END_IF
+    
+       IF (c = 'A' OR c = 'E' OR c = 'I' OR c + 'O' OR c = 'U' OR c = 'Y' OR c = 'a' OR c = 'e' OR c = 'i' OR c = 'o' OR c = 'u' OR c = 'y') THEN
+        scv := cv+1;
+       END_IF       
+    UNTIL (c = '.')
+
+    Write("Le nbr de char", cc);
+    Write("Le nbr de mot", cw);
+    Write("Le nbr de voy", cv);
+
+END
